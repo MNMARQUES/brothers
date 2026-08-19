@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(cd \"c:/MM/AppAgoraIA/Brothers/src/routes\" && grep -n \"status\" tecnico.historico.tsx tecnico.atendimento.\\\\$id.tsx 2>/dev/null)",
+      "Read(//c/MM/AppAgoraIA/Brothers/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5183/tecnico)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5183/tecnico/atendimentos)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5183/tecnico/perfil)"
+    ]
+  }
+}
